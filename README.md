@@ -11,11 +11,6 @@ sudo apt update
 sudo apt install build-essential libsdl2-dev libsdl2-ttf-dev libsdl2-mixer-dev
 git clone https://github.com/yourusername/my-sdl2-game.git
 cd my-sdl2-game
+chmod +x ./build/application
 make
 ./build/application
-
-If you get a permission denied error:
-
-```bash
-chmod +x ./build/application
-

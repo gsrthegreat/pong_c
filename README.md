@@ -10,7 +10,7 @@ Make sure the following libraries are installed:
 sudo apt update
 sudo apt install build-essential libsdl2-dev libsdl2-ttf-dev libsdl2-mixer-dev
 git clone https://github.com/gsrthegreat/pong_c.git
-cd my-sdl2-game
+cd pong_c
 chmod +x ./build/application
 make
 ./build/application
